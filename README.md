@@ -21,6 +21,7 @@ const hashEmoji = require('hash-emoji');
 hashEmoji('Edward')
 // => 🎃
 });
+```
 
 ## Goals
  - To be able to generate simple Emoji representation for strings
