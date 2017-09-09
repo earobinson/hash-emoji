@@ -24,3 +24,7 @@ hashEmoji('Edward')
 
 ## Goals
  - To be able to generate simple Emoji representation for strings
+
+ ***
+
+Built with ❤️ by [earobinson](https://twitter.com/earobinson).
