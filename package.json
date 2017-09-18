@@ -4,8 +4,9 @@
   "description": "Emoji Hash functions in pure javascript Edit",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha -R spec --recursive \"./**/*.spec.js\"",
-    "test:watch": "npm test -- --watch"
+    "test": "node ./node_modules/.bin/mocha -R spec --recursive \"./**/*.spec.js\"",
+    "test:watch": "npm test -- --watch",
+    "test:debug": "node  --inspect --debug-brk ./node_modules/.bin/mocha -R spec --recursive \"./**/*.spec.js\""
   },
   "repository": {
     "type": "git",

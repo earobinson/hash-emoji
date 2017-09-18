@@ -20,7 +20,6 @@ const hashEmoji = require('hash-emoji');
 
 hashEmoji('Edward')
 // => 🎃
-});
 ```
 
 ## Goals
