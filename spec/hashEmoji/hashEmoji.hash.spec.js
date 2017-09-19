@@ -59,23 +59,23 @@ describe('hashEmoji.hash.spec', () => {
   });
 
   describe('errors', () => {
-    it('must generate emoji for an undefined string"', () => {
+    it('must generate emoji for an undefined string', () => {
       expect(hashEmoji()).to.equal('🔡');
     });
 
-    it('must generate emoji for a null"', () => {
+    it('must generate emoji for a null', () => {
       expect(hashEmoji(null)).to.equal('🕜');
     });
 
-    it('must not generate emoji for hashLength 0"', () => {
+    it('must not generate emoji for hashLength 0', () => {
       expect(hashEmoji('key', 0)).to.equal('');
     });
 
-    it('must not generate emoji for hashLength -3"', () => {
+    it('must not generate emoji for hashLength -3', () => {
       expect(hashEmoji('key', -3)).to.equal('');
     });
 
-    it('must generate emoji when the hashLength is to large"', () => {
+    it('must generate emoji when the hashLength is to large', () => {
       expect(hashEmoji('key', 40)).to.equal('💯💯💯💯💯💯💯💯💯💯💯💯💯💯💯⚖🖥🇪🇨🔡🍢🇲🇾📝🕰🚍👨‍👩‍👦‍👦🐝🇬🇵💔🐮💝🇺🇿🚲🚭👸◻️🙁😗🇬🇭🌺🔛');
     });
   });
