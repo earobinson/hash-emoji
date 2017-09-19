@@ -1,6 +1,6 @@
 {
   "name": "hash-emoji",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Emoji Hash functions in pure javascript Edit",
   "main": "index.js",
   "scripts": {
