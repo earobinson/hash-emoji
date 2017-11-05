@@ -7,4 +7,5 @@ node_js:
   - "6"
 script:
   - npm run test:lint
-  - npm test
+  - npm run test:coverage
+  - npm run report:coverage
