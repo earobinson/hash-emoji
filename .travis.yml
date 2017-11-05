@@ -9,6 +9,7 @@ script:
 - npm run test:lint
 - npm run test:coverage
 - npm run report:coverage:coveralls
+- ls ./node_modules/.bin/
 - npm run report:coverage:codacy-coverage
 env:
   secure: B51WHCSUCK/rgZ2YL3IlBhctW0Zu63kZ6LWWyaqklET88zb+Rfg64kjDcjCqkDUe06tSS6JcQtvARGD8Na2tGY/i6ZCkJ9MP4qziQulSncyL+tGDv5/HGV7BbvRS4354O+hu9VbU64xKDjQicXQv2TY+6vRKHg7AKve3bi/cCFIQajd9CUif2DO8fd9Fwjf0qRKvTjvnjgrfQ5e/pDmGmYhv59debA0VZXgYTL6AKm4R52o08RxXqkZ+bcwcdE58AAmDSNhSGlMvqKnJO0BTnMt20AaJOqSDwQZmlezi8LuA+hILwo8HmCSTYzc+QVb7hGlkvmCLRl7uUuoJJ/cJRKXyl/6aq6MRAJgQZPhNMw/T6acf5F+CO9wD+l6i2QwyFm1Dd2i6G4zNjW3UeRniAxWuSfkLnqe7ibV+i7IzkTG9JmtNTHv95V2q+190nrWbB0T4iCk2G2MjBfhi+TwcRTTV7nPwbGrThMNW3frTqNKWvfYeYaWm/I5Kww3LGMRvmAoA9p8akeCsteM64KjrG/h/yXlQZ6F5zxIof2Od65Ynj3s2bbYDtJYXkheW6jRFwlC4Ua32a4thnnefTJy59fc5alUcrkkb4jhSRlVwAIprU2Bm4W6DRFx+hV7udpu7ElDgmCOsO3DNjeKVm28uYAqs4Nz9lz1QnFoUHSgw/Dg=
