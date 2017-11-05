@@ -6,7 +6,8 @@
   "scripts": {
     "test": "node ./node_modules/.bin/mocha -R spec --recursive \"./**/*.spec.js\"",
     "test:watch": "npm test -- --watch",
-    "test:debug": "node  --inspect --debug-brk ./node_modules/.bin/mocha -R spec --recursive \"./**/*.spec.js\""
+    "test:debug": "node  --inspect --debug-brk ./node_modules/.bin/mocha -R spec --recursive \"./**/*.spec.js\"",
+    "test:lint": "./node_modules/.bin/eslint ."
   },
   "repository": {
     "type": "git",
