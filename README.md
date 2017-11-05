@@ -1,10 +1,10 @@
 # #⃣️😏 hash-emoji
 Emoji Hash Function
 
-[![Build Status](https://api.travis-ci.org/earobinson/hash-emoji.svg?branch=master)](https://travis-ci.org/earobinson/hash-emoji)
-[![npm version](https://badge.fury.io/js/hash-emoji.svg)](https://badge.fury.io/js/hash-emoji)
-[![Dependency Status](https://gemnasium.com/badges/github.com/earobinson/hash-emoji.svg)](https://gemnasium.com/github.com/earobinson/hash-emoji)
-
+[![NPM Version](https://img.shields.io/npm/v/hash-emoji.svg)](https://www.npmjs.com/package/hash-emoji)
+[![Travis Build Status](https://img.shields.io/travis/earobinson/hash-emoji.svg)](https://travis-ci.org/earobinson/hash-emoji)
+[![Gemnasium Dependency Status](https://img.shields.io/gemnasium/earobinson/hash-emoji.svg)](https://gemnasium.com/github.com/earobinson/hash-emoji)
+[![NPM Downloads](https://img.shields.io/npm/dm/hash-emoji.svg)](https://www.npmjs.com/package/hash-emoji)
 
 ## Install
 ```bash

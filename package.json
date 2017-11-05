@@ -4,9 +4,13 @@
   "description": "Emoji Hash functions in pure javascript Edit",
   "main": "index.js",
   "scripts": {
-    "test": "node ./node_modules/.bin/mocha -R spec --recursive \"./**/*.spec.js\"",
+    "test": "node ./node_modules/.bin/mocha -R spec --recursive \"./spec/**/*.spec.js\"",
     "test:watch": "npm test -- --watch",
-    "test:debug": "node  --inspect --debug-brk ./node_modules/.bin/mocha -R spec --recursive \"./**/*.spec.js\""
+    "test:debug": "node  --inspect --debug-brk ./node_modules/.bin/mocha -R spec --recursive \"./spec/**/*.spec.js\"",
+    "test:coverage": "./node_modules/.bin/nyc --reporter=html --reporter=text npm test",
+    "test:lint": "./node_modules/.bin/eslint .",
+    "report:coverage:coveralls": "./node_modules/.bin/nyc report --reporter=text-lcov | ./node_modules/.bin/coveralls",
+    "report:coverage:codacy-coverage": "./node_modules/.bin/nyc report --reporter=text-lcov | ./node_modules/.bin/codacy-coverage"
   },
   "repository": {
     "type": "git",
@@ -24,7 +28,10 @@
   "homepage": "https://github.com/earobinson/hash-emoji#readme",
   "devDependencies": {
     "chai": "^4.1.2",
+    "codacy-coverage": "^2.0.3",
+    "coveralls": "^3.0.0",
     "eslint": "^4.6.1",
-    "mocha": "^3.5.0"
+    "mocha": "^3.5.0",
+    "nyc": "^11.3.0"
   }
 }
